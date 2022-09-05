@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+h2,h4{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.large{
+    font-size: 20px;
+    text-align: center;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 32px;
+    cursor:pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5rem;
+}
+
+.btn-light{
+    background-color: #ffc038;
+    border: 1px solid #ffc038;
+    color: #fff;
+}
+
+.btn-light:hover{
+    background-color: #fff;
+    border: 1px solid #ffc038;
+    color: #ffc038;
+}
+
+.mainheader{
+    background-image: url('img/showcase.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.navbar{
+    height: 100px;
+}
+
+.navbar .logo{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar a:hover{
+    color: #ffc038;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .container ul{
+    display: flex;
+    
+}
+
+.navbar ul li{
+    margin-left: 30px;
+}
+
+.showcase h1{
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.showcase-box{
+    width: 55%;
+    float: right;
+    padding-top: 30%;
+}
+
+.portfolio{
+    padding: 50px 0;
+}
+
+.portfolio-row{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.portfolio-row-box{
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin: 20px 10px;
+    box-shadow: .2rem .3rem .5rem rgba(0, 0, 0, .1);
+}
+
+.portfolio-row-box h3{
+    padding-top: 10px;
+}
+
+.portfolio-row-box p{
+    padding: 0 20px 0 10px;
+}
+
+.about{
+    padding: 50px 0;
+    background-image: url('img/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.about .container{
+    display: flex;
+}
+
+.about h2{
+    padding-top: 80px;
+}
+
+.about iframe{
+    width: 560px;
+    height: 315px;
+}
+
+.contact{
+    pad: 50px 0;
+}
+
+.contact h2,
+.contact p{
+    text-align: center;
+}
+
+.contact p{
+    padding-bottom: 40px;
+ }
+
+ .contact-box{
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: .2rem .3rem .5rem rgba(0, 0, 0, .1);
+    padding: 50px 60px;
+    width: 50%;
+ }
+
+ .contact-box h3{
+    font-weight: 600;
+    padding-bottom: 20px;
+ }
+
+ form .form-group{
+    margin-bottom: 16px;
+ }
+
+ form .form-control{
+    display: block;
+    width: 100%;
+    padding: 7px 12px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+ }
+
+ .form-row{
+    display: flex;
+    gap: 5px;
+ }
+
+ form textarea{
+    font-family: 'Raleway', sans-serif;
+ }
+
+ .mainfooter{
+    text-align: center;
+    font-size: 6rem;
+ }
+
